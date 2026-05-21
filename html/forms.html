@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h2>Forms in HTML</h2>
+    <form action="">
+      <div>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          name="Name"
+          id="Name"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+
+      <br />
+      <div>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" required />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" required />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" required />
+        <label for="other">Other</label>
+      </div>
+
+      <br />
+      <div>
+        <label for="city">City</label>
+        <input
+          type="text"
+          name="location"
+          id="location"
+          required
+          placeholder="Enter your city"
+        />
+      </div>
+
+      <br />
+      <div>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" />
+      </div>
+
+      <br />
+      <div>
+        <p>Subscription Plans</p>
+        <input type="radio" name="subscription" id="basic" value="basic" />
+        <label for="basic">Basic</label>
+        <input type="radio" name="subscription" id="premium" />
+        <label for="premium">Premium</label>
+        <input type="radio" name="subscription" id="silver" />
+        <label for="silver">Silver</label>
+        <input type="radio" name="subscription" id="gold" />
+        <label for="gold">Gold</label>
+      </div>
+
+      <br />
+      <div>
+        <input type="checkbox" name="policy" id="policy" required />
+        <label for="checkbox">I agree to all policies</label>
+
+        <br />
+        <br />
+        <input type="button" name="" id="" value="submit" />
+      </div>
+    </form>
+  </body>
+</html>
